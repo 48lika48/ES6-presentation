@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>ES6 Presentation Slider</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Poppins:400,700'> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slider__warpper">
+  <div class="flex__container flex--pikachu flex--active" data-slide="1">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">ES6 features</p>
+        <h1 class="text--big">Hello!</h1>
+        <p class="text--normal">In this presentation, I will try to introduce the most useful features in a succinct way. 
+          <br>
+          Let’s start with basics!
+        </p>
+      </div>
+      <p class="text__background">ECMAScript 6</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/pikachu.png">
+  </div>
+  <div class="flex__container flex--piplup animate--start" data-slide="2">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">ECMAScript definition</p>
+        <h1 class="text--big">What is ECMAScript 6?</h1>
+        <p class="text--normal">ECMAScript is a specification of a language. JavaScript is an implementation of that language. ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard.</p>
+      </div>
+      <p class="text__background">ES6 definition</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/piplup.png" />
+  </div>
+  <div class="flex__container flex--blaziken animate--start" data-slide="3">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">What main  features bring  ES6?</p>
+        <h1 class="text--big">ES6 fuatures</h1>
+        <p class="text--normal">Es6 brings many promising features like arrow function, template string, const, let and many more. 
+          <br> <br> 
+          Enough with introduction, let’s get to the business of coding...
+        </p>
+      </div>
+      <p class="text__background">ES6 fuatures</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/blaziken.png" />
+  </div>
+  <div class="flex__container flex--dialga animate--start" data-slide="4">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">ES6 Variables</p>
+        <h1 class="text--big">Const and Let keywords</h1>
+        <p class="text--normal">As we know variables declared by <span>var</span> can be used before it has been declared.
+          <br> <br>
+          <span>let</span> variables and constants have block scope (surrounded by {}) and cannot be used before declaration.
+          <br> <br>
+          <span>let</span> declares and optionally initializes a variable in the current scope. The current scope can be either a module, a function or a block. The value of a variable that is not initialized is undefined .
+          <br> <br>
+          <span>const</span> declares a variable that cannot be reassigned. It becomes a constant only when the assigned value is immutable.
+      </p>
+      </div>
+      <p class="text__background">Const And Let</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/dialga.png" />
+  </div>
+  <div class="flex__container flex--zekrom animate--start" data-slide="5">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">Array helper functions</p>
+        <h1 class="text--big">=></h1>
+        <p class="text--normal">Arrow functions are quicker and simpler way to write some of the regular function. They can be used to create small callbacks, with a shorter syntax.</p>
+        <br> <br>
+        <span>this</span>
+        <br> <br>
+        <p>Arrow functions don’t have their own <span>this</span> and <span>arguments</span>. As a result, you may see the arrow function used to fix problems with <span>this</span> losing context.
+        </p>  
+      </div>
+      <p class="text__background">Array functions</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/zekrom.png" />
+  </div>
+    <div class="flex__container flex--piplup animate--start" data-slide="6">
+      <div class="flex__item flex__item--left">
+        <div class="flex__content">
+          <p class="text--sub">Set default value of argument </p>
+          <h1 class="text--big">Default argument</h1>
+          <p class="text--normal">Es6 provides default arguments for function. You can set default value of argument and if you pass value of that argument it will be overridden and if you don’t pass default value of that argument, default value will be taken for that argument. 
+        </p>
+        </div>
+        <p class="text__background">Default argument</p>
+      </div>
+      <div class="flex__item flex__item--right"></div>
+      <img class="pokemon__img" src="assets/default.png" />
+  </div>
+  <div class="flex__container flex--blaziken animate--start" data-slide="7">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">Creating Classes</p>
+        <h1 class="text--big">Classes in ES6</h1>
+        <p class="text--normal">If you love object-oriented programming (OOP), then you’ll love this feature. It makes writing classes and inheriting from them as easy as liking a comment on Facebook.
+            The ES6 class will use prototypes, not the function factory approach. We have a class <span>baseModel</span> in which we can define a constructor and a <span>getName() method:</span>
+        </p>
+      </div>
+      <p class="text__background">Classes</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/classes.png" />
+  </div>
+  <div class="flex__container flex--dialga animate--start" data-slide="8">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">Range of features to enhance object literals</p>
+        <h1 class="text--big">Enhanced object literals</h1>
+        <p class="text--normal">Object literals have been enhanced. Now we can much more easily:
+         <br>
+          •	define fields with variable assignment of the same name
+         <br>
+          •	define functions
+         <br>
+          •	define dynamic (calculated) properties
+      </p>
+      </div>
+      <p class="text__background">Object literals</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/literals.png" />
+  </div>
+  <div class="flex__container flex--zekrom animate--start" data-slide="9">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">Embing variables in Template String </p>
+        <h1 class="text--big">Template Strings</h1>
+        <p class="text--normal">Template String or Template literals are enclosed with <span>`</span> (back-tick) . You can embed variables in Template string just by surrounding variable by <span>${}</span>. 
+          <br> <br>
+          Multi-line strings and many more features but to keep this guide simple for beginners I am not going go over every single feature of Template Strings instead let’s understand most of the features by comparing normal string with template strings.
+        </p>
+      </div>
+      <p class="text__background">Template Strings</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/template-string.png" />
+  </div>
+  <div class="flex__container flex--piplup animate--start" data-slide="10">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">Extended parameter handling</p>
+        <h1 class="text--big">Rest and spread operators</h1>
+        <p class="text--normal"> <span>Rest</span>
+         <br>
+         Would you like to bind the first few function parameters to variables, and others to single variables as an array? Now you can do it quite easily.
+         <br>
+          <span>Spread</span>
+         <br>
+          It enables extraction of array or object content as single elements.
+      </p>
+      </div>
+      <p class="text__background">Rest and spread</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/rest-spread.png" />
+  </div>
+  <div class="flex__container flex--blaziken animate--start" data-slide="11">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">Executing asynchronous code</p>
+        <h1 class="text--big">Promises</h1>
+        <p class="text--normal">Promises are JavaScript ways to execute asynchronous code. Promise takes two arguments resolve and reject to handle scenarios.
+      </div>
+      <p class="text__background">Promises</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/promises.png" />
+  </div>
+  <div class="flex__container flex--piplup animate--start" data-slide="12">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <p class="text--sub">Useful links</p>
+        <h1 class="text--big">That’s All     =)</h1>
+        <p class="text--normal"> Here i pick some links to upraise your ES6 knowledge: 
+          <br> <br>
+          <a href="https://www.lifewire.com/best-javascript-es6-features-4579821">Lifeware</a>
+          <br>
+          <a href="https://webapplog.com/es6/">Webapplog [programming weblog]</a>
+          <br>
+          <a href="https://hackernoon.com/es6-features-in-javascript-6a55bbe46dff">Hackernoon</a>
+          <br>
+          <a href="http://exploringjs.com/es6/ch_core-features.html">Exploringjs</a>
+          <br>
+          <a href="https://itnext.io/ecmascript-6-features-823b1a44c024">ItNext</a>
+          <br>
+          <a href="https://blog.pragmatists.com/top-10-es6-features-by-example-80ac878794bb">Pragmatists</a>
+          <br>
+          <a href="https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb">Medium - Free code camp</a>
+        </p>
+      </div>
+      <p class="text__background">Useful links</p>
+    </div>
+    <div class="flex__item flex__item--right"></div>
+    <img class="pokemon__img" src="assets/social.png" />
+  </div>
+</div>
+<div class="slider__navi">
+  <a href="#" class="slide-nav active" data-slide="1">pikachu</a>
+  <a href="#" class="slide-nav" data-slide="2">piplup</a>
+  <a href="#" class="slide-nav" data-slide="3">blaziken</a>
+  <a href="#" class="slide-nav" data-slide="4">dialga</a>
+  <a href="#" class="slide-nav" data-slide="5">zekrom</a>
+  <a href="#" class="slide-nav" data-slide="6">default</a>
+  <a href="#" class="slide-nav" data-slide="7">classes</a>
+  <a href="#" class="slide-nav" data-slide="8">literals</a>
+  <a href="#" class="slide-nav" data-slide="9">template-strings</a>
+  <a href="#" class="slide-nav" data-slide="10">rest-spread</a>
+  <a href="#" class="slide-nav" data-slide="11">promises</a>
+  <a href="#" class="slide-nav" data-slide="12">creator</a>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
